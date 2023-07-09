@@ -83,11 +83,16 @@ a{
     background-color: #FD6E0A;
     color: white;
     font-family:Open Sans ;
+    border: none;
  }   
 .btn-new{
     color: #FD6E0A;
     background-color: #FFF8F3;
     border-color: #FD6E0A;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
     
 }
 .btnn{
@@ -234,4 +239,15 @@ footer{
 .photo{
     justify-content: space-around;
     padding-right: 20px;
+}
+.form-details input[type="text"],.form-details input[type="email"], 
+textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 30px;
+    width: 100%;
+    font: 600;
+    background:white;
+    border-radius: 5px;
+    border:0px
 }

@@ -47,9 +47,73 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url('header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 580px;
+    
 }
  .banner .propic{
-    width: 290px;
-    height: 376px;  
-   /*background: url(<path-to-image>), lightgray -192.573px 0px /            173.656% 100% no-repeat;*/
+    width: 330px;
+    height: 400px; 
+    padding-bottom: 0px;
+    padding-left: 100px;
+
+ }
+ .hello{
+    font-size: 30px;
+    color:#474747;
+    margin-bottom: 10px;
+ }
+ .name{
+    font-size: 50px;
+    margin-top: 0px;
+ }
+ p{
+    color: #474747;
+ }
+ .greet{
+    padding-left: 100px;
+ }
+ .btn1{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #FD6E0A;
+    color: white;
+    font-family:Open Sans ;
+ }   
+.btn-new{
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    border-color: #FD6E0A;
+    
+}
+.btnn{
+    border: none;
+}
+.abu{
+    color:  #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.para{
+    color:#757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.home{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding-top: 50px;
+    margin: 130px;
 }
